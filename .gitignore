@@ -1,0 +1,39 @@
+# Sistema operacional
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Node (caso instale ferramentas de build futuramente)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Editores
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*~
+
+# Netlify
+.netlify/
+
+# Imagens originais de alta resolução (manter apenas as otimizadas)
+assets/images/originals/
+assets/images/raw/
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.log

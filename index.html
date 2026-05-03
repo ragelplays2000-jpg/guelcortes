@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Guelcortes - Barbearia moderna em São Rafael, Salvador/BA. Cortes masculinos, barba, platinado e sobrancelha com preços acessíveis. Agende seu horário!">
+  <meta name="keywords" content="barbearia salvador, barbearia são rafael, corte masculino salvador, barba salvador, platinado salvador, guelcortes">
+  <meta name="author" content="Guelcortes">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Guelcortes - Barbearia Moderna em Salvador">
+  <meta property="og:description" content="Cortes masculinos, barba, platinado e sobrancelha. Ambiente descontraído em São Rafael.">
+  <meta property="og:image" content="assets/images/hero-bg.jpg">
+  <meta property="og:url" content="https://guelcortes.netlify.app">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Guelcortes - Barbearia Moderna">
+  <meta name="twitter:description" content="Cortes, barba, platinado e sobrancelha em Salvador">
+  <meta name="twitter:image" content="assets/images/hero-bg.jpg">
+
+  <title>Guelcortes - Barbearia Moderna em Salvador</title>
+
+  <!-- Schema.org LocalBusiness -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HairSalon",
+    "name": "Guelcortes",
+    "description": "Barbearia moderna em São Rafael, Salvador",
+    "telephone": "+5571984059423",
+    "email": "guelcortes@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Salvador",
+      "addressRegion": "BA",
+      "addressCountry": "BR",
+      "streetAddress": "São Rafael"
+    },
+    "sameAs": ["https://www.instagram.com/_guelcortes/"],
+    "priceRange": "R$ 10 - R$ 35"
+  }
+  </script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- GLightbox CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- ========== HEADER ========== -->
+  <header id="header" class="header" role="banner">
+    <nav class="nav container" aria-label="Navegação principal">
+
+      <a href="#inicio" class="nav__logo" aria-label="Guelcortes - Ir para início">
+        Guel<span class="nav__logo-accent">cortes</span>
+      </a>
+
+      <ul class="nav__menu" id="nav-menu" role="list">
+        <li><a href="#inicio"      class="nav__link">Início</a></li>
+        <li><a href="#servicos"    class="nav__link">Serviços</a></li>
+        <li><a href="#galeria"     class="nav__link">Galeria</a></li>
+        <li><a href="#depoimentos" class="nav__link">Depoimentos</a></li>
+        <li><a href="#contato"     class="nav__link">Contato</a></li>
+      </ul>
+
+      <a href="https://wa.me/5571984059423?text=Ol%C3%A1%2C%20Guelcortes!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20um%20hor%C3%A1rio.%0A%E2%9C%82%EF%B8%8F%20Servi%C3%A7o%20de%20interesse%3A%20%0A%F0%9F%93%85%20Data%2Fhor%C3%A1rio%20preferido%3A%0A%F0%9F%93%9D%20Observa%C3%A7%C3%B5es%3A"
+         class="btn btn--outline btn--sm nav__cta"
+         target="_blank" rel="noopener noreferrer"
+         aria-label="Agendar horário via WhatsApp">
+        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.890-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+        </svg>
+        Agendar Horário
+      </a>
+
+      <button class="nav__toggle" id="nav-toggle"
+              aria-label="Abrir menu" aria-expanded="false" aria-controls="nav-menu">
+        <span class="hamburger" aria-hidden="true"></span>
+      </button>
+
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ========== HERO ========== -->
+    <section id="inicio" class="hero" aria-label="Seção principal">
+      <div class="hero__bg" aria-hidden="true">
+        <img src="https://placehold.co/1920x1080/0a0a0a/C0C0C0?text=Guelcortes+Barbearia"
+             alt="" class="hero__bg-img" loading="eager">
+        <div class="hero__overlay"></div>
+      </div>
+
+      <div class="hero__content container">
+
+        <div class="hero__text animate-fade-up">
+          <span class="hero__badge">✂️ Barbearia Moderna</span>
+          <h1 class="hero__title">Seu Estilo,<br><span class="text-accent">Nossa Arte</span></h1>
+          <p class="hero__subtitle">Barbearia moderna em São Rafael — Salvador/BA</p>
+
+          <div class="hero__actions">
+            <a href="https://wa.me/5571984059423?text=Ol%C3%A1%2C%20Guelcortes!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20um%20hor%C3%A1rio.%0A%E2%9C%82%EF%B8%8F%20Servi%C3%A7o%20de%20interesse%3A%20%0A%F0%9F%93%85%20Data%2Fhor%C3%A1rio%20preferido%3A%0A%F0%9F%93%9D%20Observa%C3%A7%C3%B5es%3A"
+               class="btn btn--primary btn--lg"
+               target="_blank" rel="noopener noreferrer"
+               aria-label="Agendar horário via WhatsApp">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.890-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+              </svg>
+              Agendar Horário
+            </a>
+            <a href="#servicos" class="btn btn--outline-white btn--lg" aria-label="Ver nossos serviços">
+              Ver Serviços
+            </a>
+          </div>
+        </div>
+
+        <!-- Stats animados -->
+        <div class="hero__stats" aria-label="Estatísticas da barbearia">
+          <div class="hero__stat animate-fade-up" style="--delay: 0.2s">
+            <span class="hero__stat-number" data-count="500" data-suffix="+">0+</span>
+            <span class="hero__stat-label">Clientes Satisfeitos</span>
+          </div>
+          <div class="hero__stat animate-fade-up" style="--delay: 0.3s">
+            <span class="hero__stat-number" data-count="3" data-suffix="+">0+</span>
+            <span class="hero__stat-label">Anos de Experiência</span>
+          </div>
+          <div class="hero__stat animate-fade-up" style="--delay: 0.4s">
+            <span class="hero__stat-number">5min</span>
+            <span class="hero__stat-label">Do Shopping Paralela</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========== SOBRE ========== -->
+    <section id="sobre" class="about section" aria-label="Sobre a Guelcortes">
+      <div class="container">
+        <div class="about__grid">
+
+          <div class="about__image-wrapper animate-fade-up">
+            <img src="https://placehold.co/600x700/1a1a1a/C0C0C0?text=Foto+do+Ambiente"
+                 alt="Ambiente moderno e arejado da barbearia Guelcortes em São Rafael"
+                 class="about__image" loading="lazy">
+          </div>
+
+          <div class="about__content animate-fade-up" style="--delay: 0.15s">
+            <span class="section__eyebrow">Sobre Nós</span>
+            <h2 class="section__title">Ambiente Descontraído<br>e Profissional</h2>
+            <p class="about__text">
+              A Guelcortes é muito mais que uma barbearia — é um espaço onde estilo encontra
+              qualidade. Localizada em São Rafael, Salvador, nossa barbearia oferece um ambiente
+              arejado e descontraído, ideal para o público jovem e moderno.
+            </p>
+            <p class="about__text">
+              Com localização privilegiada próxima ao Shopping Paralela, atendemos com
+              excelência e carinho, garantindo que cada cliente saia com o visual que sempre quis.
+            </p>
+
+            <div class="about__badges">
+              <div class="about__badge">
+                <span class="about__badge-icon" aria-hidden="true">📍</span>
+                <span class="about__badge-text">Localização estratégica em São Rafael</span>
+              </div>
+              <div class="about__badge">
+                <span class="about__badge-icon" aria-hidden="true">❄️</span>
+                <span class="about__badge-text">Ambiente arejado</span>
+              </div>
+              <div class="about__badge">
+                <span class="about__badge-icon" aria-hidden="true">⭐</span>
+                <span class="about__badge-text">Atendimento personalizado</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SERVIÇOS ========== -->
+    <section id="servicos" class="services section section--dark" aria-label="Nossos serviços">
+      <div class="container">
+
+        <div class="section__header animate-fade-up">
+          <span class="section__eyebrow">O que oferecemos</span>
+          <h2 class="section__title section__title--light">Nossos Serviços</h2>
+          <p class="section__subtitle section__subtitle--light">Qualidade e estilo em cada detalhe</p>
+        </div>
+
+        <div class="services__grid">
+
+          <!-- Corte Masculino -->
+          <article class="service-card animate-fade-up" style="--delay: 0.1s">
+            <div class="service-card__icon" aria-hidden="true">✂️</div>
+            <h3 class="service-card__title">Corte Masculino</h3>
+            <p class="service-card__desc">Cortes modernos e clássicos adaptados ao seu estilo</p>
+            <div class="service-card__footer">
+              <span class="service-card__price">R$ 20,00</span>
+              <a href="https://wa.me/5571984059423?text=Ol%C3%A1!%20Tenho%20interesse%20no%20*Corte%20Masculino*%20(R%24%2020%2C00).%0A%F0%9F%93%85%20Prefer%C3%AAncia%20de%20data%2Fhor%C3%A1rio%3A%0A%F0%9F%93%9D%20Informa%C3%A7%C3%B5es%20adicionais%3A"
+                 class="btn btn--primary btn--sm"
+                 target="_blank" rel="noopener noreferrer"
+                 aria-label="Agendar Corte Masculino via WhatsApp">
+                Agendar
+              </a>
+            </div>
+          </article>
+
+          <!-- Barba -->
+          <article class="service-card animate-fade-up" style="--delay: 0.2s">
+            <div class="service-card__icon" aria-hidden="true">🪒</div>
+            <h3 class="service-card__title">Barba</h3>
+            <p class="service-card__desc">Design e alinhamento profissional</p>
+            <div class="service-card__footer">
+              <span class="service-card__price">R$ 12,00</span>
+              <a href="https://wa.me/5571984059423?text=Ol%C3%A1!%20Tenho%20interesse%20no%20*Barba*%20(R%24%2012%2C00).%0A%F0%9F%93%85%20Prefer%C3%AAncia%20de%20data%2Fhor%C3%A1rio%3A%0A%F0%9F%93%9D%20Informa%C3%A7%C3%B5es%20adicionais%3A"
+                 class="btn btn--primary btn--sm"
+                 target="_blank" rel="noopener noreferrer"
+                 aria-label="Agendar serviço de Barba via WhatsApp">
+                Agendar
+              </a>
+            </div>
+          </article>
+
+          <!-- Platinado -->
+          <article class="service-card animate-fade-up" style="--delay: 0.3s">
+            <div class="service-card__icon" aria-hidden="true">🎨</div>
+            <h3 class="service-card__title">Platinado</h3>
+            <p class="service-card__desc">Coloração moderna e estilo único</p>
+            <div class="service-card__footer">
+              <span class="service-card__price">R$ 35,00</span>
+              <a href="https://wa.me/5571984059423?text=Ol%C3%A1!%20Tenho%20interesse%20no%20*Platinado*%20(R%24%2035%2C00).%0A%F0%9F%93%85%20Prefer%C3%AAncia%20de%20data%2Fhor%C3%A1rio%3A%0A%F0%9F%93%9D%20Informa%C3%A7%C3%B5es%20adicionais%3A"
+                 class="btn btn--primary btn--sm"
+                 target="_blank" rel="noopener noreferrer"
+                 aria-label="Agendar serviço de Platinado via WhatsApp">
+                Agendar
+              </a>
+            </div>
+          </article>
+
+          <!-- Sobrancelha -->
+          <article class="service-card animate-fade-up" style="--delay: 0.4s">
+            <div class="service-card__icon" aria-hidden="true">👁️</div>
+            <h3 class="service-card__title">Sobrancelha</h3>
+            <p class="service-card__desc">Design masculino e acabamento perfeito</p>
+            <div class="service-card__footer">
+              <span class="service-card__price">R$ 10,00</span>
+              <a href="https://wa.me/5571984059423?text=Ol%C3%A1!%20Tenho%20interesse%20no%20*Sobrancelha*%20(R%24%2010%2C00).%0A%F0%9F%93%85%20Prefer%C3%AAncia%20de%20data%2Fhor%C3%A1rio%3A%0A%F0%9F%93%9D%20Informa%C3%A7%C3%B5es%20adicionais%3A"
+                 class="btn btn--primary btn--sm"
+                 target="_blank" rel="noopener noreferrer"
+                 aria-label="Agendar serviço de Sobrancelha via WhatsApp">
+                Agendar
+              </a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== GALERIA ========== -->
+    <section id="galeria" class="gallery section" aria-label="Galeria de trabalhos">
+      <div class="container">
+
+        <div class="section__header animate-fade-up">
+          <span class="section__eyebrow">Portfólio</span>
+          <h2 class="section__title">Nossos Trabalhos</h2>
+          <p class="section__subtitle">Confira alguns dos nossos cortes no Instagram</p>
+        </div>
+
+        <div class="gallery__grid">
+
+          <a href="https://placehold.co/900x1100/1a1a1a/C0C0C0?text=Seus+Cortes+Aqui"
+             class="gallery__item glightbox animate-fade-up"
+             data-gallery="guelcortes"
+             data-glightbox="title: Corte Masculino | description: Corte moderno realizado na Guelcortes"
+             style="--delay: 0.05s"
+             aria-label="Ampliar foto do corte 1">
+            <img src="https://placehold.co/450x550/1a1a1a/C0C0C0?text=Seus+Cortes+Aqui"
+                 alt="Corte masculino moderno na Guelcortes" loading="lazy">
+            <div class="gallery__overlay" aria-hidden="true">
+              <span class="gallery__zoom-icon">+</span>
+            </div>
+          </a>
+
+          <a href="https://placehold.co/900x700/0a0a0a/C0C0C0?text=Seus+Cortes+Aqui"
+             class="gallery__item glightbox animate-fade-up"
+             data-gallery="guelcortes"
+             data-glightbox="title: Design de Barba | description: Barba alinhada com precisão"
+             style="--delay: 0.1s"
+             aria-label="Ampliar foto do design de barba">
+            <img src="https://placehold.co/450x350/0a0a0a/C0C0C0?text=Seus+Cortes+Aqui"
+                 alt="Design de barba profissional na Guelcortes" loading="lazy">
+            <div class="gallery__overlay" aria-hidden="true">
+              <span class="gallery__zoom-icon">+</span>
+            </div>
+          </a>
+
+          <a href="https://placehold.co/900x1000/1a1a1a/C0C0C0?text=Seus+Cortes+Aqui"
+             class="gallery__item glightbox animate-fade-up"
+             data-gallery="guelcortes"
+             data-glightbox="title: Corte Moderno | description: Estilo exclusivo"
+             style="--delay: 0.15s"
+             aria-label="Ampliar foto do corte 2">
+            <img src="https://placehold.co/450x500/1a1a1a/C0C0C0?text=Seus+Cortes+Aqui"
+                 alt="Corte moderno exclusivo na Guelcortes" loading="lazy">
+            <div class="gallery__overlay" aria-hidden="true">
+              <span class="gallery__zoom-icon">+</span>
+            </div>
+          </a>
+
+          <a href="https://placehold.co/900x900/0a0a0a/C0C0C0?text=Seus+Cortes+Aqui"
+             class="gallery__item glightbox animate-fade-up"
+             data-gallery="guelcortes"
+             data-glightbox="title: Platinado | description: Coloração moderna e exclusiva"
+             style="--delay: 0.2s"
+             aria-label="Ampliar foto do platinado">
+            <img src="https://placehold.co/450x450/0a0a0a/C0C0C0?text=Seus+Cortes+Aqui"
+                 alt="Platinado moderno na Guelcortes" loading="lazy">
+            <div class="gallery__overlay" aria-hidden="true">
+              <span class="gallery__zoom-icon">+</span>
+            </div>
+          </a>
+
+          <a href="https://placehold.co/900x1200/1a1a1a/C0C0C0?text=Seus+Cortes+Aqui"
+             class="gallery__item glightbox animate-fade-up"
+             data-gallery="guelcortes"
+             data-glightbox="title: Sobrancelha | description: Acabamento masculino perfeito"
+             style="--delay: 0.25s"
+             aria-label="Ampliar foto do design de sobrancelha">
+            <img src="https://placehold.co/450x600/1a1a1a/C0C0C0?text=Seus+Cortes+Aqui"
+                 alt="Design de sobrancelha masculina na Guelcortes" loading="lazy">
+            <div class="gallery__overlay" aria-hidden="true">
+              <span class="gallery__zoom-icon">+</span>
+            </div>
+          </a>
+
+          <a href="https://placehold.co/900x750/0a0a0a/C0C0C0?text=Seus+Cortes+Aqui"
+             class="gallery__item glightbox animate-fade-up"
+             data-gallery="guelcortes"
+             data-glightbox="title: Nosso Ambiente | description: Espaço arejado e moderno"
+             style="--delay: 0.3s"
+             aria-label="Ampliar foto do ambiente da barbearia">
+            <img src="https://placehold.co/450x375/0a0a0a/C0C0C0?text=Seus+Cortes+Aqui"
+                 alt="Ambiente moderno da Guelcortes" loading="lazy">
+            <div class="gallery__overlay" aria-hidden="true">
+              <span class="gallery__zoom-icon">+</span>
+            </div>
+          </a>
+
+        </div>
+
+        <div class="gallery__footer animate-fade-up" style="--delay: 0.35s">
+          <a href="https://www.instagram.com/_guelcortes/"
+             class="btn btn--outline"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="Ver mais trabalhos no Instagram da Guelcortes">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+            </svg>
+            Ver mais no Instagram
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========== DEPOIMENTOS ========== -->
+    <section id="depoimentos" class="testimonials section section--alt" aria-label="Depoimentos dos clientes">
+      <div class="container">
+
+        <div class="section__header animate-fade-up">
+          <span class="section__eyebrow">Clientes</span>
+          <h2 class="section__title">O Que Dizem Nossos Clientes</h2>
+        </div>
+
+        <div class="swiper testimonials__slider animate-fade-up" style="--delay: 0.2s">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <article class="testimonial-card">
+                <div class="testimonial-card__header">
+                  <div class="testimonial-card__avatar" aria-hidden="true">JS</div>
+                  <div>
+                    <h3 class="testimonial-card__name">João Silva</h3>
+                    <div class="testimonial-card__stars" aria-label="5 de 5 estrelas">
+                      <span aria-hidden="true">★★★★★</span>
+                    </div>
+                  </div>
+                </div>
+                <blockquote class="testimonial-card__text">
+                  "Melhor barbearia da região! Atendimento top e ambiente agradável.
+                  Sempre saio com o corte exatamente como quero!"
+                </blockquote>
+              </article>
+            </div>
+
+            <div class="swiper-slide">
+              <article class="testimonial-card">
+                <div class="testimonial-card__header">
+                  <div class="testimonial-card__avatar" aria-hidden="true">PS</div>
+                  <div>
+                    <h3 class="testimonial-card__name">Pedro Santos</h3>
+                    <div class="testimonial-card__stars" aria-label="5 de 5 estrelas">
+                      <span aria-hidden="true">★★★★★</span>
+                    </div>
+                  </div>
+                </div>
+                <blockquote class="testimonial-card__text">
+                  "Corte impecável e preço justo. Virei cliente fiel! O ambiente é ótimo
+                  e o profissional sabe exatamente o que está fazendo."
+                </blockquote>
+              </article>
+            </div>
+
+            <div class="swiper-slide">
+              <article class="testimonial-card">
+                <div class="testimonial-card__header">
+                  <div class="testimonial-card__avatar" aria-hidden="true">LO</div>
+                  <div>
+                    <h3 class="testimonial-card__name">Lucas Oliveira</h3>
+                    <div class="testimonial-card__stars" aria-label="5 de 5 estrelas">
+                      <span aria-hidden="true">★★★★★</span>
+                    </div>
+                  </div>
+                </div>
+                <blockquote class="testimonial-card__text">
+                  "Profissional qualificado, sempre saio satisfeito. Local bem localizado
+                  e preços acessíveis. Recomendo a todos!"
+                </blockquote>
+              </article>
+            </div>
+
+          </div>
+          <div class="swiper-pagination testimonials__pagination" aria-label="Paginação do slider"></div>
+          <div class="swiper-button-prev testimonials__nav testimonials__nav--prev" aria-label="Depoimento anterior"></div>
+          <div class="swiper-button-next testimonials__nav testimonials__nav--next" aria-label="Próximo depoimento"></div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========== CONTATO ========== -->
+    <section id="contato" class="contact section section--dark" aria-label="Contato e agendamento">
+      <div class="container">
+        <div class="contact__grid">
+
+          <!-- Informações -->
+          <div class="contact__info animate-fade-up">
+            <span class="section__eyebrow">Fale Conosco</span>
+            <h2 class="section__title section__title--light">Agende Seu Horário</h2>
+            <p class="contact__intro">
+              Entre em contato pelo WhatsApp ou preencha o formulário.
+              Respondemos rapidamente!
+            </p>
+
+            <address class="contact__details">
+              <div class="contact__item">
+                <span class="contact__icon" aria-hidden="true">📍</span>
+                <div>
+                  <strong>Endereço</strong>
+                  <span>São Rafael, Salvador — BA</span>
+                </div>
+              </div>
+              <div class="contact__item">
+                <span class="contact__icon" aria-hidden="true">📱</span>
+                <div>
+                  <strong>WhatsApp</strong>
+                  <a href="https://wa.me/5571984059423" target="_blank" rel="noopener noreferrer">
+                    (71) 98405-9423
+                  </a>
+                </div>
+              </div>
+              <div class="contact__item">
+                <span class="contact__icon" aria-hidden="true">✉️</span>
+                <div>
+                  <strong>E-mail</strong>
+                  <a href="mailto:guelcortes@gmail.com">guelcortes@gmail.com</a>
+                </div>
+              </div>
+              <div class="contact__item">
+                <span class="contact__icon" aria-hidden="true">📸</span>
+                <div>
+                  <strong>Instagram</strong>
+                  <a href="https://www.instagram.com/_guelcortes/" target="_blank" rel="noopener noreferrer">
+                    @_guelcortes
+                  </a>
+                </div>
+              </div>
+              <div class="contact__item">
+                <span class="contact__icon" aria-hidden="true">🕐</span>
+                <div>
+                  <strong>Horário</strong>
+                  <span>Seg–Sáb: 9h às 19h</span>
+                </div>
+              </div>
+            </address>
+          </div>
+
+          <!-- Formulário -->
+          <div class="contact__form-wrapper animate-fade-up" style="--delay: 0.2s">
+            <form class="contact__form" id="contact-form" novalidate aria-label="Formulário de contato">
+
+              <div class="form__group">
+                <label for="contact-name" class="form__label">Nome completo *</label>
+                <input type="text" id="contact-name" name="name"
+                       class="form__input" placeholder="Seu nome"
+                       required autocomplete="name">
+              </div>
+
+              <div class="form__group">
+                <label for="contact-whatsapp" class="form__label">WhatsApp *</label>
+                <input type="tel" id="contact-whatsapp" name="whatsapp"
+                       class="form__input" placeholder="(71) 99999-9999"
+                       required autocomplete="tel">
+              </div>
+
+              <div class="form__group">
+                <label for="contact-service" class="form__label">Serviço de interesse *</label>
+                <select id="contact-service" name="service" class="form__input form__select" required>
+                  <option value="">Selecione um serviço</option>
+                  <option value="Corte Masculino (R$ 20,00)">Corte Masculino — R$ 20,00</option>
+                  <option value="Barba (R$ 12,00)">Barba — R$ 12,00</option>
+                  <option value="Platinado (R$ 35,00)">Platinado — R$ 35,00</option>
+                  <option value="Sobrancelha (R$ 10,00)">Sobrancelha — R$ 10,00</option>
+                  <option value="Corte + Barba">Corte + Barba (combo)</option>
+                </select>
+              </div>
+
+              <div class="form__group">
+                <label for="contact-message" class="form__label">Mensagem (opcional)</label>
+                <textarea id="contact-message" name="message"
+                          class="form__input form__textarea"
+                          placeholder="Preferência de data/horário ou outras informações..."
+                          rows="4"></textarea>
+              </div>
+
+              <button type="submit" class="btn btn--primary btn--full"
+                      aria-label="Enviar dados via WhatsApp">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.890-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+                </svg>
+                Enviar via WhatsApp
+              </button>
+
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+
+      <div class="footer__grid">
+
+        <div class="footer__brand">
+          <a href="#inicio" class="footer__logo" aria-label="Guelcortes — início">
+            Guel<span class="footer__logo-accent">cortes</span>
+          </a>
+          <p class="footer__tagline">Seu estilo, nossa arte.</p>
+          <div class="footer__social">
+            <a href="https://www.instagram.com/_guelcortes/"
+               target="_blank" rel="noopener noreferrer"
+               class="footer__social-link"
+               aria-label="Instagram da Guelcortes">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <nav class="footer__nav" aria-label="Links rápidos do rodapé">
+          <h4 class="footer__nav-title">Links Rápidos</h4>
+          <ul class="footer__nav-list" role="list">
+            <li><a href="#inicio"      class="footer__nav-link">Início</a></li>
+            <li><a href="#servicos"    class="footer__nav-link">Serviços</a></li>
+            <li><a href="#galeria"     class="footer__nav-link">Galeria</a></li>
+            <li><a href="#contato"     class="footer__nav-link">Contato</a></li>
+          </ul>
+        </nav>
+
+        <div class="footer__contact-info">
+          <h4 class="footer__nav-title">Contato</h4>
+          <p>São Rafael, Salvador — BA</p>
+          <a href="https://wa.me/5571984059423" target="_blank" rel="noopener noreferrer">
+            (71) 98405-9423
+          </a>
+          <a href="mailto:guelcortes@gmail.com">guelcortes@gmail.com</a>
+        </div>
+
+      </div>
+
+      <div class="footer__bottom">
+        <p class="footer__copyright">© 2026 Guelcortes — Todos os direitos reservados</p>
+        <p class="footer__credits">Desenvolvido com carinho para Guelcortes</p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ========== BOTÃO WHATSAPP FLUTUANTE ========== -->
+  <a href="https://wa.me/5571984059423?text=Ol%C3%A1%2C%20Guelcortes!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20um%20hor%C3%A1rio.%0A%E2%9C%82%EF%B8%8F%20Servi%C3%A7o%20de%20interesse%3A%20%0A%F0%9F%93%85%20Data%2Fhor%C3%A1rio%20preferido%3A%0A%F0%9F%93%9D%20Observa%C3%A7%C3%B5es%3A"
+     class="whatsapp-float"
+     target="_blank" rel="noopener noreferrer"
+     aria-label="Fale conosco via WhatsApp" title="Fale conosco">
+    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="white" aria-hidden="true">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.890-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+    </svg>
+    <span class="whatsapp-float__tooltip" aria-hidden="true">Fale conosco</span>
+  </a>
+
+  <!-- Scripts externos -->
+  <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+
+  <!-- Script principal -->
+  <script src="assets/js/main.js" defer></script>
+
+</body>
+</html>
